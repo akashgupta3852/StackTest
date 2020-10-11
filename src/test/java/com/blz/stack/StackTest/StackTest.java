@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class StackTest {
 	@Test
-	public void given3NumberWhenAddedToLinkedListShouldbeAddedToTop() {
+	public void given3NumbersWhenAddedToStackShouldHaveLastAddedNode() {
 		MyNode<Integer> myFirstNode = new MyNode<>(70);
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(56);
